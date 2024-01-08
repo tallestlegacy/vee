@@ -1,6 +1,5 @@
 flask==3.0.0
-blinker
-tensorflow
+tensorflow==2.13.0
 pillow==10.2.0
 numpy
 python-multipart==0.0.6
