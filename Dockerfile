@@ -7,6 +7,12 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
+# install venv 
+RUN pip install virtualenv
+
+# create venv
+RUN python -m venv venv
+
 # enable venv
 RUN source venv/bin/activate
 
