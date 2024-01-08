@@ -3,3 +3,4 @@ tensorflow==2.13.0
 pillow==10.2.0
 numpy
 python-multipart==0.0.6
+gunicorn
