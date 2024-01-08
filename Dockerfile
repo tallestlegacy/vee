@@ -8,10 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requirements.txt
-# RUN pip install -r requirements.txt
-
-RUN pip install --upgrade pip
-RUN pip install flask tensorflow numpy pillow python-multipart blinker
+RUN pip install -r requirements.txt
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000

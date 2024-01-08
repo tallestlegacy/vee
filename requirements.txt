@@ -1,4 +1,5 @@
 flask==3.0.0
+blinker
 tensorflow
 pillow==10.2.0
 numpy
