@@ -3,4 +3,3 @@ tensorflow
 pillow==10.2.0
 numpy
 python-multipart==0.0.6
-blinker==1.7.0 
