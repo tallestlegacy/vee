@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.applications.vgg16 import preprocess_input
 from PIL import Image
 import numpy as np
+import flask_cors
 
 # Global variables
 model_path = "./model.tflite"  # Change the path to your TFLite model file
@@ -51,6 +52,7 @@ from flask import Flask, render_template, request, jsonify
 from PIL import Image
 
 app = Flask(__name__)
+flask_cors.CORS(app)
 
 
 @app.route("/")
