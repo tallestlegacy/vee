@@ -1,5 +1,5 @@
-flask
+flask==3.0.0
 tensorflow
-pillow
+pillow==10.2.0
 numpy
-python-multipart
+python-multipart==0.0.6
